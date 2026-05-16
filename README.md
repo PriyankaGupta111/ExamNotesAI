@@ -129,23 +129,7 @@ Users can:
 - Stripe Payment Gateway
 - Stripe Webhooks
 
-📂 Project Structure
-AI-Exam-Notes-Generator/
-│
-├── client/                 # Frontend React App
-│   ├── src/
-│   ├── public/
-│   └── ...
-│
-├── server/                 # Backend Express Server
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   └── ...
-│
-├── README.md
-└── package.json
+
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/AI-Exam-Notes-Generator.git
