@@ -129,12 +129,34 @@ Users can:
 - Stripe Payment Gateway
 - Stripe Webhooks
 
+
+
 # ⚙️ Installation & Setup
 
 ## 1️⃣ Clone the Repository
 
-```https://github.com/PriyankaGupta111/ExamNotesAI.git
+```bash
+git clone https://github.com/your-username/AI-Exam-Notes-Generator.git
 
+cd AI-Exam-Notes-Generator
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+### Frontend
+
+```bash
+cd client
+npm install
+```
+
+### Backend
+
+```bash
+cd server
+npm install
 ```
 
 ---
@@ -144,7 +166,7 @@ Users can:
 ## Create a `.env` file inside the `server` folder
 
 ```env
-PORT=5000
+PORT=8000
 
 MONGO_URI=your_mongodb_connection_string
 
@@ -166,7 +188,7 @@ CLIENT_URL=http://localhost:5173
 ```env
 VITE_FIREBASE_APIKEY=""
 
-"
+
 ```
 
 ---
@@ -187,24 +209,9 @@ npm run dev
 ```bash
 cd client
 npm run dev
-Frontend
-cd client
-npm install
-Backend
-cd server
-npm install
+```
 
-📸 Screenshots
-🏠 Home Page
-
-<img width="1791" height="785" alt="image" src="https://github.com/user-attachments/assets/1d569e4e-be93-4fbd-8fda-ac792578e954" />
-
-
-📝 Notes Generation
-
-<img width="1875" height="700" alt="image" src="https://github.com/user-attachments/assets/ca98a0cf-7666-489f-aa4c-4d2cb70fea3f" />
-
-
+---
 
 # 🚀 Future Enhancements
 
@@ -214,5 +221,13 @@ npm install
 - Dark mode
 - Collaborative study rooms
 - Mobile app version
+
+
+
+
+
+
+
+
 
 
