@@ -131,16 +131,15 @@ npm run dev
 📸 Screenshots
 🏠 Home Page
 
-Add project screenshots here
+<img width="1791" height="785" alt="image" src="https://github.com/user-attachments/assets/1d569e4e-be93-4fbd-8fda-ac792578e954" />
+
 
 📝 Notes Generation
 
 <img width="1875" height="700" alt="image" src="https://github.com/user-attachments/assets/ca98a0cf-7666-489f-aa4c-4d2cb70fea3f" />
 
 
-📊 Charts & Diagrams
 
-Add screenshots here
 
 🚀 Future Enhancements
 Multi-language notes support
