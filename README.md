@@ -1,176 +1,100 @@
-🚀  AI Exam Notes Generator
+AI Exam Notes Generator 🚀
 
-ExamNotes AI is a full-stack MERN web application that uses advanced AI models to generate structured, exam-oriented notes, revision material, diagrams, charts, and downloadable PDFs instantly.
-The platform is designed for students preparing for exams like CBSE, JEE, NEET, College Exams, and project documentation.
+AI Exam Notes Generator is a full-stack MERN web application that uses the Google Gemini API to generate structured, exam-oriented notes for any topic.
+The platform helps students create customized study material based on their class level and exam type (CBSE, JEE, NEET, etc.), along with diagrams, charts, revision notes, and PDF exports.
 
-The project leverages technologies like React.js, Redux Toolkit, Node.js, MongoDB, Google Gemini API, Firebase Authentication, and Stripe Payments to provide a modern AI-powered learning experience.
-
-📚 Table of Contents
-Features
-Tech Stack
-Current Functionality
-Future Scope
-Project Screenshots
-How to Run
-Environment Variables
-Contributors
-License
 🌟 Features
-🧠 AI Notes Generation
+🧠 AI-Powered Notes Generation
 
-Generate high-quality structured notes using Google Gemini AI based on:
+Generate detailed and structured notes using Google Gemini AI based on:
 
-Topic
-Class / Level
-Exam Type
-Revision Mode
+Topic name
+Class/Grade
+Exam type
+Difficulty level
 ⚡ Quick Revision Mode
 
-Get concise revision-ready content including:
+Enable Revision Mode to get:
 
+Short bullet-point notes
 Important formulas
 Key definitions
-Bullet-point summaries
-Last-minute revision notes
-📊 AI-Generated Charts & Diagrams
-
-Automatically generate:
-
-Flow diagrams
-Block diagrams
-Pie charts
-Bar charts
-Graphs
-
-Using:
-
-Mermaid.js
-Recharts
+Last-minute exam revision material
+📊 Automated Diagrams & Charts
+Generate flowcharts and block diagrams using Mermaid.js
+Create visual charts using Recharts
+Pie Charts
+Bar Charts
+Line Charts
 📄 PDF Export
 
-Download generated notes and revision summaries as clean PDFs.
+Download generated notes and revision summaries as PDFs using PDFKit.
 
-💳 Credits & Monetization
+💳 Credit System & Monetization
 
-Integrated Stripe Payment Gateway:
+Integrated Stripe Payment Gateway for:
 
-Free starter credits
-Buy additional credits
-Credit-based AI usage system
+Buying credits
+Managing usage limits
+Premium note generation
 🔐 Secure Authentication
 
-Authentication powered by:
+Authentication powered by Firebase Google OAuth:
 
-Firebase Google OAuth
-JWT Authentication
-Cookie-based sessions
+Continue with Google
+Secure JWT-based sessions
+Cookie-based authentication
 📝 Notes History
 
 Users can:
 
 Save generated notes
-Revisit previous notes
-Access notes anytime
+Access previous notes anytime
+Manage study history from dashboard
 🛠️ Tech Stack
+Frontend
+React.js (Vite)
+Tailwind CSS
+Framer Motion
+Redux Toolkit
+React Markdown
 Backend
 Node.js
 Express.js
+Database
 MongoDB
 Mongoose
-JWT Authentication
-Cookie Parser
-Stripe Webhooks
-Frontend
-React.js (Vite)
-Redux Toolkit
-Tailwind CSS
-Framer Motion
-React Markdown
-Recharts
-Mermaid.js
-AI & Authentication
-Google Gemini API
+AI Integration
+Google Gemini API (Gemini Flash Models)
+Authentication
 Firebase Authentication
-✅ Current Functionality
-👤 User Authentication
-Continue with Google Login
-Secure authentication using Firebase
-Persistent sessions with JWT
-🧠 AI Note Generation
-
-Users can:
-
-Enter topic name
-Select class/level
-Choose exam type
-Generate AI-powered notes instantly
-⚡ Revision Mode
-
-Special revision-focused AI output for:
-
-Short notes
-Formulas
-Quick study material
-📊 Diagram & Chart Generation
-
-Generate educational diagrams and charts dynamically inside notes.
-
-📄 PDF Downloads
-
-Users can export generated notes as PDFs.
-
-💳 Credits System
-Free credits for new users
-Credit deduction per generation
-Stripe-based recharge system
-📝 Notes Dashboard
-
-Users can:
-
-View previous notes
-Access saved content
-Continue learning later
-🚀 Future Scope
-🌍 Multi-language Support
-
-Generate notes in:
-
-Hindi
-English
-Regional languages
-🎯 AI Quiz Generation
-
-Automatic:
-
-MCQs
-Practice questions
-Mock tests
-🎤 Voice Assistant
-
-AI-based voice learning assistant for interactive study.
-
-🌙 Dark Mode
-
-Enhanced UI with dark/light themes.
-
-📱 Mobile Application
-
-Dedicated Android & iOS applications.
-
-
-Features:
-
-Topic input
-Class/Level selection
-Exam type selection
-Revision mode toggle
-Diagram and chart options
+Google OAuth
+JWT
+Cookie Parser
+Payments
+Stripe Payment Gateway
+Stripe Webhooks
 📂 Project Structure
-
-⚙️ How to Run
-1️⃣ Clone Repository
-git clone https://github.com/your-username/ExamNotes-AI.git
-cd ExamNotes-AI
+AI-Exam-Notes-Generator/
+│
+├── client/                 # Frontend React App
+│   ├── src/
+│   ├── public/
+│   └── ...
+│
+├── server/                 # Backend Express Server
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   └── ...
+│
+├── README.md
+└── package.json
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/AI-Exam-Notes-Generator.git
+cd AI-Exam-Notes-Generator
 2️⃣ Install Dependencies
 Frontend
 cd client
@@ -178,28 +102,50 @@ npm install
 Backend
 cd server
 npm install
-3️⃣ Setup Environment Variables
+3️⃣ Environment Variables
 
 Create a .env file inside the server folder.
 
-PORT=8000
+PORT=5000
 
-MONGO_URI=your_mongodb_uri
+MONGO_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_jwt_secret
 
 GEMINI_API_KEY=your_gemini_api_key
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
+
 STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxx
 CLIENT_URL=http://localhost:5173
-
 Create a .env file inside the client folder.
 VITE_FIREBASE_APIKEY = " "
-▶️ Start the Application
-Backend
+
+▶️ Run the Project
+Start Backend
 cd server
 npm run dev
-Frontend
+Start Frontend
 cd client
 npm run dev
+📸 Screenshots
+🏠 Home Page
+
+Add project screenshots here
+
+📝 Notes Generation
+
+<img width="1875" height="700" alt="image" src="https://github.com/user-attachments/assets/ca98a0cf-7666-489f-aa4c-4d2cb70fea3f" />
+
+
+📊 Charts & Diagrams
+
+Add screenshots here
+
+🚀 Future Enhancements
+Multi-language notes support
+AI-generated quizzes & MCQs
+Voice-based learning assistant
+Dark mode
+Collaborative study rooms
+Mobile app version
