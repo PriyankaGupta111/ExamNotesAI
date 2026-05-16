@@ -1,79 +1,134 @@
-AI Exam Notes Generator 🚀
+# ExamNotes AI 🚀
 
-AI Exam Notes Generator is a full-stack MERN web application that uses the Google Gemini API to generate structured, exam-oriented notes for any topic.
-The platform helps students create customized study material based on their class level and exam type (CBSE, JEE, NEET, etc.), along with diagrams, charts, revision notes, and PDF exports.
+ExamNotes AI is a full-stack MERN web application that uses advanced AI models to generate structured, exam-oriented notes, revision material, diagrams, charts, and downloadable PDFs instantly.
 
-🌟 Features
-🧠 AI-Powered Notes Generation
+The platform is designed for students preparing for exams like:
+- CBSE
+- JEE
+- NEET
+- College Exams
 
-Generate detailed and structured notes using Google Gemini AI based on:
+---
 
-Topic name
-Class/Grade
-Exam type
-Difficulty level
-⚡ Quick Revision Mode
+# 📚 Table of Contents
 
-Enable Revision Mode to get:
+- Features
+- Tech Stack
+- Current Functionality
+- Future Scope
+- Project Structure
+- Installation & Setup
+- Environment Variables
 
-Short bullet-point notes
-Important formulas
-Key definitions
-Last-minute exam revision material
-📊 Automated Diagrams & Charts
-Generate flowcharts and block diagrams using Mermaid.js
-Create visual charts using Recharts
-Pie Charts
-Bar Charts
-Line Charts
-📄 PDF Export
+---
+
+# 🌟 Features
+
+## 🧠 AI Notes Generation
+
+Generate structured AI-powered notes based on:
+- Topic
+- Class / Level
+- Exam Type
+
+---
+
+## ⚡ Quick Revision Mode
+
+Get:
+- Short notes
+- Important formulas
+- Key definitions
+- Revision summaries
+
+---
+
+## 📊 AI Generated Charts & Diagrams
+
+Using:
+- Mermaid.js
+- Recharts
+
+Supported Charts:
+- Pie Charts
+- Bar Charts
+- Line Charts
+- Flow Diagrams
+
+---
+
+## 📄 PDF Export
 
 Download generated notes and revision summaries as PDFs using PDFKit.
 
-💳 Credit System & Monetization
+---
+
+## 💳 Credit System & Monetization
 
 Integrated Stripe Payment Gateway for:
+- Buying credits
+- Managing usage limits
+- Premium note generation
 
-Buying credits
-Managing usage limits
-Premium note generation
-🔐 Secure Authentication
+---
 
-Authentication powered by Firebase Google OAuth:
+## 🔐 Secure Authentication
 
-Continue with Google
-Secure JWT-based sessions
-Cookie-based authentication
-📝 Notes History
+Authentication powered by Firebase Google OAuth.
+
+Features:
+- Continue with Google
+- JWT-based sessions
+- Cookie-based authentication
+
+---
+
+## 📝 Notes History
 
 Users can:
+- Save generated notes
+- Access previous notes anytime
+- Manage study history from dashboard
 
-Save generated notes
-Access previous notes anytime
-Manage study history from dashboard
-🛠️ Tech Stack
-Frontend
-React.js (Vite)
-Tailwind CSS
-Framer Motion
-Redux Toolkit
-React Markdown
-Backend
-Node.js
-Express.js
-Database
-MongoDB
-Mongoose
-AI Integration
-Google Gemini API (Gemini Flash Models)
-Authentication
-Firebase Authentication
-Google OAuth
-JWT
-Cookie Parser
-Payments
-Stripe Payment Gateway
-Stripe Webhooks
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React.js (Vite)
+- Tailwind CSS
+- Framer Motion
+- Redux Toolkit
+- React Markdown
+- Recharts
+- Mermaid.js
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Cookie Parser
+
+---
+
+## AI & Authentication
+
+- Google Gemini API
+- Firebase Authentication
+
+---
+
+## Payments
+
+- Stripe Payment Gateway
+- Stripe Webhooks
+
 📂 Project Structure
 AI-Exam-Notes-Generator/
 │
