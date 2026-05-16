@@ -129,12 +129,17 @@ Users can:
 - Stripe Payment Gateway
 - Stripe Webhooks
 
+# ⚙️ Installation & Setup
 
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/AI-Exam-Notes-Generator.git
-cd AI-Exam-Notes-Generator
-2️⃣ Install Dependencies
+## 1️⃣ Clone the Repository
+
+```cd AI-Exam-Notes-Generator
+
+```
+
+---
+
+
 Frontend
 cd client
 npm install
@@ -179,11 +184,13 @@ npm run dev
 
 
 
+# 🚀 Future Enhancements
 
-🚀 Future Enhancements
-Multi-language notes support
-AI-generated quizzes & MCQs
-Voice-based learning assistant
-Dark mode
-Collaborative study rooms
-Mobile app version
+- Multi-language notes support
+- AI-generated quizzes & MCQs
+- Voice-based learning assistant
+- Dark mode
+- Collaborative study rooms
+- Mobile app version
+
+-
