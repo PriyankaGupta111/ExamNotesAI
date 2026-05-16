@@ -133,23 +133,17 @@ Users can:
 
 ## 1️⃣ Clone the Repository
 
-```cd AI-Exam-Notes-Generator
+```https://github.com/PriyankaGupta111/ExamNotesAI.git
 
 ```
 
 ---
 
+# 🔑 Environment Variables
 
-Frontend
-cd client
-npm install
-Backend
-cd server
-npm install
-3️⃣ Environment Variables
+## Create a `.env` file inside the `server` folder
 
-Create a .env file inside the server folder.
-
+```env
 PORT=5000
 
 MONGO_URI=your_mongodb_connection_string
@@ -160,18 +154,46 @@ GEMINI_API_KEY=your_gemini_api_key
 
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
-STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxxx
-CLIENT_URL=http://localhost:5173
-Create a .env file inside the client folder.
-VITE_FIREBASE_APIKEY = " "
+STRIPE_WEBHOOK_SECRET=whsec_xxxxxxxxxxxx
 
-▶️ Run the Project
-Start Backend
+CLIENT_URL=http://localhost:5173
+```
+
+---
+
+## Create a `.env` file inside the `client` folder
+
+```env
+VITE_FIREBASE_APIKEY=""
+
+"
+```
+
+---
+
+# ▶️ Run the Project
+
+## Start Backend
+
+```bash
 cd server
 npm run dev
-Start Frontend
+```
+
+---
+
+## Start Frontend
+
+```bash
 cd client
 npm run dev
+Frontend
+cd client
+npm install
+Backend
+cd server
+npm install
+
 📸 Screenshots
 🏠 Home Page
 
@@ -193,4 +215,4 @@ npm run dev
 - Collaborative study rooms
 - Mobile app version
 
--
+
