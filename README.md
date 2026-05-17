@@ -10,6 +10,11 @@ The platform is designed for students preparing for exams like:
 
 ---
 
+## 🚀 Live Demo
+🔗 https://examnotesaiclient-wul6.onrender.com
+
+---
+
 # 📚 Table of Contents
 
 - Features
